@@ -101,13 +101,15 @@ const rl = new RateLimiter(5, 3000);
 // FIREBASE CONFIG  ← ここに自分の設定を貼り付けてください
 // ══════════════════════════════════════════════════════════════════════
 const YOUR_FIREBASE_CONFIG = {
-  apiKey: "YOUR_API_KEY",
-  authDomain: "YOUR_PROJECT.firebaseapp.com",
-  databaseURL: "https://YOUR_PROJECT-default-rtdb.firebaseio.com",
-  projectId: "YOUR_PROJECT",
-  storageBucket: "YOUR_PROJECT.appspot.com",
-  messagingSenderId: "YOUR_SENDER_ID",
-  appId: "YOUR_APP_ID",
+    apiKey: "AIzaSyDAzLxc6WDCXNQZNuANKmSP_jH1fOmAXTI",
+  authDomain: "iwai-pro.firebaseapp.com",
+  databaseURL: "https://iwai-pro-default-rtdb.firebaseio.com",
+  projectId: "iwai-pro",
+  storageBucket: "iwai-pro.firebasestorage.app",
+  messagingSenderId: "928582923249",
+  appId: "1:928582923249:web:cae8d36db88f23d0f94a50",
+  measurementId: "G-R4X3CRRHKG"
+
 };
 
 // Firebase SDK (loaded via CDN in index.html — see setup guide)
